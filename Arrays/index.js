@@ -33,8 +33,8 @@
 // console.log('b', myn2)
 
 
-const marvel_hero = ["thor", "Ironman", "Spiderman"]
-const DC_hero = ["superman", "flash", "batman"]
+// const marvel_hero = ["thor", "Ironman", "Spiderman"]
+// const DC_hero = ["superman", "flash", "batman"]
 
 // marvel_hero.push(DC_hero)
 
@@ -53,7 +53,158 @@ const DC_hero = ["superman", "flash", "batman"]
 // console.log(Array.isArray("Usman"))
 // console.log(Array.from("Usman"))
 
-const score = 100
-const score1 = 200
-const score2 = 300
-console.log('Array', Array.of(score, score1, score2))
+// const score = 100
+// const score1 = 200
+// const score2 = 300
+// console.log('Array', Array.of(score, score1, score2))
+
+// let person = {
+//     name: 'usman', age: 21
+// }
+// let arr = ['apple', 'banana', person]
+
+// console.log('arr', arr)
+
+// let arr = ['apple', 'banana', 'cherry']
+
+// arr.unshift("orange")
+
+// console.log('arr', arr)
+
+// arr.shift()
+
+// console.log('arr', arr)
+
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     console.log('element', element)
+// }
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7];
+// const num1 = 3
+// const findNum = numbers.map((item) => {
+//     if (num1 === item) {
+//         item = 12;
+//     }
+//     return item
+// })
+// console.log('findNum', findNum)
+
+// const findItem = numbers.filter((item) => {
+//     return num1 === item
+// })
+// console.log('findItem', findItem)
+
+// const newNum = numbers.reduce((prev, item) => {
+//     return prev + item
+// }, 0)
+
+// console.log('newNum', newNum)
+
+// Array.prototype.myMap = function (cb) {
+//     let temp = []
+//     for (let i = 0; i < this.length; i++) {
+//         temp.push(cb(this[i], i, this))
+//     }
+//     return temp
+// }
+
+// const mutliplyByThree = numbers.myMap((num) => {
+//     return num * 3
+// })
+// console.log('mutliplyByThree', mutliplyByThree)
+
+// Array.prototype.myFilter = function (cb) {
+//     let temp = [];
+//     for (let i = 0; i < this.length; i++) {
+//         if (cb(this[i], i, this)) temp.push(this[i])
+//     }
+//     return temp
+// }
+
+// const mutliplyByThree = numbers.myFilter((num) => {
+//     return num === 3
+// })
+// console.log('mutliplyByThree', mutliplyByThree)
+
+// Array.prototype.myReduce = function (cb, initialValue) {
+//     var accmulator = initialValue;
+//     for (let i = 0; i < this.length; i++) {
+//         accmulator = accmulator ? cb(accmulator, this[i], i, this) : this[i]
+//     }
+//     return accmulator
+// }
+
+// const mutliplyByThree = numbers.myReduce((acc, curr) => {
+//     return acc + curr
+// })
+// console.log('mutliplyByThree', mutliplyByThree)
+
+// diff between map and foreach
+
+// const arr = [1, 2, 3, 4, 5, 6];
+
+// // dont change the values of the original array 
+// const mapArray = arr.map(arr => arr * 2).filter((item) => item === 4)
+
+// console.log('mapArray', mapArray)
+// // change the values of the original array 
+// arr.forEach(arr => arr * 2)
+// console.log('foreachArray', arr)
+
+const students = [
+    { name: 'John', rollNo: 'S001', marks: 85 },
+    { name: 'Emily', rollNo: 'S002', marks: 78 },
+    { name: 'Michael', rollNo: 'S003', marks: 92 },
+    { name: 'Sarah', rollNo: 'S004', marks: 70 },
+    { name: 'David', rollNo: 'S005', marks: 88 }
+];
+
+// const updatedRecord = students.map((student) => {
+//     return student.name.toUpperCase()
+// })
+
+// console.log('updatedRecord', updatedRecord)
+
+// const updatedRecord = students.filter((student) => {
+//     return student.marks > 60
+// })
+
+// console.log('updatedRecord', updatedRecord)
+
+// const updatedRecord = students.reduce((acc, stud) => {
+//     return acc + stud.marks
+// }, 0)
+
+// console.log('updatedRecord', updatedRecord)
+
+// const updatedRecord = students
+//     .filter((stu) => stu.marks > 60)
+//     .map((stu) => stu.name);
+
+// console.log('updatedRecord', updatedRecord);
+
+// const totalMarks = students.map((stu) => {
+//     if (stu.marks < 60) {
+//         stu.marks += 20
+//     }
+//     return stu
+// }).filter((stu) => stu.marks > 60).reduce((acc, stu) => acc + stu.marks, 0)
+// console.log('totalMarks', totalMarks);
+
+
+// some 
+
+const arr = [1, 2, 3, 4, 5, 6]
+
+// const res = arr.some((i) => i > 3)
+
+// const res = arr.every((i) => i > 3)
+
+// const res = arr.find((i) => i > 3)
+
+// console.log('res', res)
+
+
+// spread  and Rest operator
+
