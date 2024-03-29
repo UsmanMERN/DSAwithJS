@@ -32,3 +32,4 @@ let value = 3;
 let negValue = -value
 
 console.log('negValue', negValue)
+console.log('negValue', negValue)
