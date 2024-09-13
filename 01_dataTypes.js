@@ -27,12 +27,12 @@
 
 // *******************************      operation       ***********************************
 
-let value = 3;
+// let value = 3;
 
-let negValue = -value
+// let negValue = -value
 
-console.log('negValue', negValue)
-console.log('negValue', negValue)
+// console.log('negValue', negValue)
+// console.log('negValue', negValue)
 
 // *******************************      Type conversion       ***********************************
 
@@ -179,3 +179,10 @@ Understanding type conversion is crucial for writing robust JavaScript code and 
 
 Would you like me to elaborate on any specific aspect of type conversion or provide more examples?
 */
+
+const obj = {}
+const num = null
+
+console.log('object :>> ', typeof obj);
+console.log('num :>> ', typeof num);
+// console.log('obj == num :>> ', obj1 == num);
