@@ -180,9 +180,42 @@ Understanding type conversion is crucial for writing robust JavaScript code and 
 Would you like me to elaborate on any specific aspect of type conversion or provide more examples?
 */
 
-const obj = {}
-const num = null
+// const obj = {}
+// const num = null
 
-console.log('object :>> ', typeof obj);
-console.log('num :>> ', typeof num);
+// console.log('object :>> ', typeof obj);
+// console.log('num :>> ', typeof num);
 // console.log('obj == num :>> ', obj1 == num);
+
+
+// let temp = -3
+
+// if (temp > 35) {
+//     console.log('temp is Hot!:>> ', temp);
+// } else if (temp >= 25) {
+//     console.log('temp is warm!:>> ', temp);
+// } else {
+//     console.log('temp is cold!:>> ', temp);
+// }
+
+
+// let isWeekend = false;
+// let isHoliday = true;
+
+// if (isWeekend || isHoliday) {
+//     console.log("You can relax today.");
+// } else {
+//     console.log("It's a workday.");
+// }
+
+const name = "Muhammad Usman"
+
+// console.log('name :>> ', name.concat("M"));
+// console.log('name :>> ', name.toLowerCase());
+
+const numarray = [1, 32, 322, 323, 222, 233]
+
+console.log('Max:>> ', Math.max(...numarray));
+console.log('min:>> ', Math.min(...numarray));
+// console.log('POW:>> ', Math.pow(10, 10));
+console.log('POW:>> ', 10 ** 10);
