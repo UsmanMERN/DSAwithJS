@@ -208,14 +208,14 @@ Would you like me to elaborate on any specific aspect of type conversion or prov
 //     console.log("It's a workday.");
 // }
 
-const name = "Muhammad Usman"
+// const name = "Muhammad Usman"
 
-// console.log('name :>> ', name.concat("M"));
-// console.log('name :>> ', name.toLowerCase());
+// // console.log('name :>> ', name.concat("M"));
+// // console.log('name :>> ', name.toLowerCase());
 
-const numarray = [1, 32, 322, 323, 222, 233]
+// const numarray = [1, 32, 322, 323, 222, 233]
 
-console.log('Max:>> ', Math.max(...numarray));
-console.log('min:>> ', Math.min(...numarray));
-// console.log('POW:>> ', Math.pow(10, 10));
-console.log('POW:>> ', 10 ** 10);
+// console.log('Max:>> ', Math.max(...numarray));
+// console.log('min:>> ', Math.min(...numarray));
+// // console.log('POW:>> ', Math.pow(10, 10));
+// console.log('POW:>> ', 10 ** 10);

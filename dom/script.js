@@ -19,12 +19,26 @@
 // console.log(john.name);  // Output: John
 // console.log(jane.age);   // Output: 30
 
-const select = document.querySelectorAll("h2")
-// select[0].style.color = 'red'
-const changeBg = (select) => {
-    for (let i = 0; i < select.length; i++) {
-        select[i].style.color = 'red'
-    }
-}
-changeBg(select)
-console.log('select :>> ', select[0].style.color = 'red');
+// const select = document.querySelectorAll("h2")
+// // select[0].style.color = 'red'
+// const changeBg = (select) => {
+//     for (let i = 0; i < select.length; i++) {
+//         select[i].style.color = 'red'
+//     }
+// }
+// changeBg(select)
+// console.log('select :>> ', select[0].style.color = 'red');
+
+// var x;  // Declaration is hoisted (x is undefined here)
+// console.log(x);  // Output: undefined
+// x = 5;  // Now 'x' is assigned 5
+// console.log(x);  // Output: 5
+
+
+const num = "10101abc"
+
+console.log('parseInt(num) :>> ', parseInt(num));
+console.log('Number(num) :>> ', Number(num));
+
+console.log(parseInt("101", 2));
+console.log(parseInt("FF", 16));
