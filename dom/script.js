@@ -35,10 +35,58 @@
 // console.log(x);  // Output: 5
 
 
-const num = "10101abc"
+// const num = "10101abc"
 
-console.log('parseInt(num) :>> ', parseInt(num));
-console.log('Number(num) :>> ', Number(num));
+// console.log('parseInt(num) :>> ', parseInt(num));
+// console.log('Number(num) :>> ', Number(num));
 
-console.log(parseInt("101", 2));
-console.log(parseInt("FF", 16));
+// console.log(parseInt("101", 2));
+// console.log(parseInt("FF", 16));
+
+// setTimeout(() => {
+//     console.log('Testing this :>> ');
+// }, 6000);
+
+// let arr = ["--X", "X++", "X++"]
+
+// var finalValueAfterOperations = function (operations) {
+//     let x = 0;
+
+//     arr.map((op) => op.includes("++") ? x += 1 : x -= 1)
+//     return x
+// };
+
+// console.log('finalValueAfterOperations() :>> ', finalValueAfterOperations(arr));
+
+// let nums = [3, 2, 1, 5, 4]
+// let k = 2
+
+// var countKDifference = function (nums, k) {
+//     let diff = 0
+//     for (let i = 0; i < nums.length; i++) {
+//         for (let j = i + 1; j < nums.length; j++) {
+//             console.log('nums[i] :>> ', i, nums[i]);
+//             console.log('nums[j] :>> ', j + "-->j", nums[j]);
+//             if (nums[i] - k == nums[j] || nums[j] - k == nums[i]) {
+//                 diff++
+//             }
+//         }
+//     }
+//     return diff
+// };
+// console.log('countKDifference() :>> ', countKDifference(nums, k));
+
+// let k = "52"
+
+// let countKDifference = function (num) {
+//     for (let i = num.length - 1; i >= 0; i--) {
+//         let element = num.charAt(i)
+//         let subString = num.substring(0, i + 1)
+//         if (element % 2 == 1) {
+//             return subString
+//         }
+//     }
+
+//     return ""
+// };
+// console.log('countKDifference() :>> ', countKDifference(k));
