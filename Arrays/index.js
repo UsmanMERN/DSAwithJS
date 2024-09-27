@@ -1,10 +1,10 @@
 // array
-// const myArry = [0, 1, 2, 3, 4, 5]
-
+const myArry = [0, 1, 2, 3, 4, 5]
+// 
 // shallow copy and deep copy
 // console.log('my array', myArry[3])
 
-// array method
+// // array method
 // myArry.push(6)
 // myArry.push(7)
 // myArry.pop()
@@ -312,3 +312,28 @@ const myarr = [1, 2, 3, 4, 5, 6, 7, 8]
 
 
 // console.log(removeDuplicate([1, 1, 1, 2, 2, 1, 2, 1, 3, 4, , 4, 4]))
+
+
+var maxProfit = function (prices) {
+    let smallValue = prices[0]
+    let largeValue = prices[0]
+    let indexOfSellingPoint = 0
+    let ans = 0
+
+    // smallValue = Math.min(...prices)
+    for (let i = 0; i < prices.length; i++) {
+        const element = prices[i];
+        if (element < smallValue) {
+            smallValue = element
+            largeValue = 0
+        }
+        if (element > largeValue) {
+            largeValue = element
+        }
+        let diff = largeValue - smallValue
+        ans = diff > ans ? diff : ans
+    }
+    return ans
+};
+
+console.log('maxProfit([7,1,5,3,6,4]) :>> ', maxProfit([2, 4, 1]));
