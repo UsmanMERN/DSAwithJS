@@ -522,14 +522,17 @@ const myarr = [1, 2, 3, 4, 5, 6, 7, 8]
 
 // // console.log('maxProfit([7,1,5,3,6,4]) :>> ', mergeTwoLists([1, 2, 4], [1, 3, 4]));
 
-var canConstruct = function (ransomNote, magazine) {
-    // for (let i = 0; i < ransomNote.length; i++) {
-    //     const element = ransomNote[i];
-    // }
-    for (const i of ransomNote) {
-        if (i) {
+// var arrayRankTransform = function (arr) {
 
-        }
-    }
-};
-console.log('maxProfit([7,1,5,3,6,4]) :>> ', canConstruct("aa", "aab"));
+//     let sortedArray = [...arr].sort((a, b) => a - b)
+//     let rankMap = new Map()
+//     let rank = 1
+//     for (let i = 0; i < sortedArray.length; i++) {
+//         const element = sortedArray[i];
+//         if (!rankMap.has(element)) {
+//             rankMap.set(element, rank++)
+//         }
+//     }
+//     return arr.map(num => rankMap.get(num))
+// };
+// console.log('maxProfit([7,1,5,3,6,4]) :>> ', arrayRankTransform([37, 12, 28, 9, 100, 56, 80, 5, 12]));
